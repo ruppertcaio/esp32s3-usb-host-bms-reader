@@ -25,7 +25,7 @@ O driver do MCP2515 é próprio, escrito a partir do datasheet da Microchip.
 | MISO | 13 | level shifter se o módulo for 5 V |
 | MOSI | 11 | |
 | CS   | 10 | |
-| INT  | —  | não usado (polling) |
+| INT  | -  | não usado (polling) |
 
 Pinos da fiação da bancada; cristal em [`config.h`](firmware/main/config.h) (`MCP2515_OSC_HZ`, 8 ou 16 MHz).
 
