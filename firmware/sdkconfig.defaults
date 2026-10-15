@@ -1,0 +1,7 @@
+CONFIG_IDF_TARGET="esp32s3"
+
+# Console (logs + relatório) na UART0 = porta "UART" do DevKitC-1.
+# Sem console secundário no USB Serial/JTAG: a porta USB nativa (GPIO19/20)
+# é o USB Host do BMS.
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
