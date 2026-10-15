@@ -37,7 +37,7 @@ const char *TAG_BMS = "BMS";
 const char *TAG_CAN = "CAN";
 
 // ===================== Estado compartilhado =====================
-// ponytail: um mutex para tudo; o volume é ~4 pacotes/s, não há disputa real.
+// Um mutex para tudo; o volume é ~4 pacotes/s, não há disputa real.
 SemaphoreHandle_t stateMutex = nullptr;
 BmsData bmsData = {};
 bool bmsValid = false;
